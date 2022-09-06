@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="detection" type="detect_tag" name="detect_tag" output="screen">
+    <remap from="/detect/scan" to="/scan" />
+  </node>
+</launch>

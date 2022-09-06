@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="detection" type="detect_cubo" name="detect_cubo" output="screen">
+  </node>
+</launch>
