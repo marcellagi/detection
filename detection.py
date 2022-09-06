@@ -12,11 +12,11 @@ upper_range = np.array([25, 255, 255])
 
 mask = cv.inRange(hsv, lower_range, upper_range)
 # cv.imshow("orange", mask)
-cv.imwrite("laranja2masked.jpg", mask)
+cv.imwrite("cubo.jpeg", mask)
 
 def main(argv):
     
-    default_file = 'laranja2masked.jpg'
+    default_file = 'cubo.jpeg'
     filename = argv[0] if len(argv) > 0 else default_file
     # Loads an image
     src = cv.imread(cv.samples.findFile(filename), cv.IMREAD_COLOR)
